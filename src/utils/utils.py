@@ -175,7 +175,7 @@ def get_llm_model(provider: str, **kwargs):
 # Predefined model names for common providers
 model_names = {
     "anthropic": ["claude-3-5-sonnet-20241022", "claude-3-5-sonnet-20240620", "claude-3-opus-20240229"],
-    "openai": ["gemini-2.5-pro-exp-03-25","gpt-4o-mini", "gpt-4o", "gpt-3.5-turbo", "o3-mini"],
+    "openai": ["gemini-2.5-pro-exp-03-25","hs-deepseek-v3","hs-deepseek-r1","gpt-4o-mini", "gpt-4o", "gpt-3.5-turbo", "o3-mini"],
     "deepseek": ["deepseek-chat", "deepseek-reasoner"],
     "google": ["gemini-2.0-flash", "gemini-2.0-flash-thinking-exp", "gemini-1.5-flash-latest",
                "gemini-1.5-flash-8b-latest", "gemini-2.0-flash-thinking-exp-01-21", "gemini-2.0-pro-exp-02-05","gemini-2.5-pro-exp-03-25"],
